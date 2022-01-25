@@ -1,4 +1,4 @@
-// based on https://github.com/Penndrageist/bitburner-scripts/blob/master/scripts/HackingMission.js.js
+// based on https://github.com/Penndrageist/bitburner-scripts/blob/master/scripts/HackingMission.js
 ;(function (document) {
   const settings = {
     keys: {

@@ -4,8 +4,8 @@ export async function main(ns) {
     }
   
     await ns.wget(
-      `https://raw.githubusercontent.com/rayhato/bitburner/master/scripts/10-initHacking.js?ts=${new Date().getTime()}`,
-      "10-initHacking.js"
+      `https://raw.githubusercontent.com/rayhato/bitburner/master/scripts/initHacking.js?ts=${new Date().getTime()}`,
+      "initHacking.js"
     );
-    ns.spawn("10-initHacking.js", 1);
+    ns.spawn("initHacking.js", 1);
   }
